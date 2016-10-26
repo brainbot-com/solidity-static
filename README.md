@@ -1,4 +1,9 @@
-<a href='https://travis-ci.org/rainbeam/solidity-static'> <img src='https://travis-ci.org/rainbeam/solidity-static.svg?branch=master'> </a>
+<a href='https://travis-ci.org/brainbot-com/solidity-static'> <img src='https://travis-ci.org/brainbot-com/solidity-static.svg?branch=master'> </a>
+
+#WARNING
+
+This is no official release! Use at your own risk and only if you trust the publisher.
+
 
 ## Static, portable builds of Solidity
 
