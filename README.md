@@ -30,3 +30,14 @@ $ du -h solc soltest
 3.0M    solc
 5.8M    soltest
 ```
+
+## Create a release
+
+Use [bumpversion](https://github.com/peritus/bumpversion) to bump version strings to newest upstream version, then push
+the newly created commit and tag:
+
+```bash
+# Example from 0.4.2 -> 0.4.3
+bumpversion patch
+git push && git push --tags
+```
