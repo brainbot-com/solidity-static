@@ -18,7 +18,7 @@ RUN cd jsoncpp \
 
 WORKDIR /src/solidity/build
 
-ENV RELEASE_TAG v0.4.2
+ENV RELEASE_TAG v0.4.3
 
 RUN git checkout $RELEASE_TAG
 # https://github.com/ethereum/solidity/blob/3b6e131d852eab0c74260d9ca5c7a11501265da1/cmake/scripts/buildinfo.cmake#L22-L26
