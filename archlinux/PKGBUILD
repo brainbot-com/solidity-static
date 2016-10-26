@@ -8,7 +8,6 @@ url='https://github.com/brainbot-com/solidity-static'
 license=('GPL3')
 conflicts=('ethereum' 'solc' 'ethereum-git')
 source=('https://github.com/brainbot-com/solidity-static/releases/download/v0.4.1/solc')
-md5sums=('8035320f2065939c956be8ed7465da96')
 
 package() {
     install -D -m755 solc $pkgdir/usr/bin/solc
