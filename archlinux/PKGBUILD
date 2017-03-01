@@ -1,13 +1,13 @@
 # Maintainer: Augusto Hack <hack.augusto@gmail.com>
 pkgname=solc-static
-pkgver=0.4.7
+pkgver=0.4.8
 pkgrel=1
 pkgdesc='solc compiler statically linked against musl'
 arch=('x86_64')
 url='https://github.com/brainbot-com/solidity-static'
 license=('GPL3')
 conflicts=('ethereum' 'solc' 'ethereum-git')
-source=('https://github.com/brainbot-com/solidity-static/releases/download/v0.4.7/solc')
+source=('https://github.com/brainbot-com/solidity-static/releases/download/v0.4.8/solc')
 
 package() {
     install -D -m755 solc $pkgdir/usr/bin/solc
