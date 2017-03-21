@@ -1,3 +1,7 @@
+# DEPRECATED
+
+**Go to https://github.com/ethereum/solidity/releases for versions higher than 0.4.9**
+
 <a href='https://travis-ci.org/brainbot-com/solidity-static'> <img src='https://travis-ci.org/brainbot-com/solidity-static.svg?branch=master'> </a>
 
 #WARNING
